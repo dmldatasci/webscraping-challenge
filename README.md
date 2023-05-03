@@ -7,9 +7,8 @@ This is a web-scraping and data analysis project. Berkeley lectures discussed is
 
 This challenge is intended to strengthen skill in data collection, organization and storage, as well as analysis and visualization.
 
-    - *Deliverable 1:* Scrape titles and preview text from Mars news articles.
-
-    - *Deliverable 2:* Scrape and analyze Mars weather data, which exists in a table.
+- *Deliverable 1:* Scrape titles and preview text from Mars news articles.
+- *Deliverable 2:* Scrape and analyze Mars weather data, which exists in a table.
 
 Files
 Download the following files to help you get started:
