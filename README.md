@@ -67,5 +67,9 @@ This challenge is intended to strengthen skill in data collection, organization 
     * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
         * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         * Visually estimate the result by plotting the daily minimum temperature.
+        
+    ![Daily Minimum Temperature](output/daily_min_temp.png)
+    
+    Observing terrestrial days elapsed between peaks in the daily minimum temperature graph, we can estimate approximately 650-700 days. A Google search confirms that there are 687 terrestrial days in a Martian year.
 
-6. Export the DataFrame to a CSV file titled `.csv`.
+6. Export the DataFrame to a CSV file titled `mars_weather.csv`.
