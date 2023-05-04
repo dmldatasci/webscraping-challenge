@@ -59,6 +59,11 @@ This challenge is intended to strengthen skill in data collection, organization 
     * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
         * Find the average daily atmospheric pressure of all the months.
         * Plot the results as a bar chart.
+        
+    ![Average Pressure by Month – Ascending](output/asc_avg_pressure.png)
+        
+    It appears that average atmospheric pressure by month increases in the following order: 6, 5, 7, 4, 12, 11, 1, 8, 3, 10, 2, 9.
+        
     * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
         * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         * Visually estimate the result by plotting the daily minimum temperature.
