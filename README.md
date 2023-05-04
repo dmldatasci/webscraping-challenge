@@ -44,12 +44,18 @@ This challenge is intended to strengthen skill in data collection, organization 
 
 4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate `datetime`, `int`, or `float` data types.
 
-5. Analyze your dataset by using Pandas functions to answer the following questions:
-    * How many months exist on Mars?
-    * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
+5. Analyze the dataset using `pandas` functions to answer the following questions:
+    * How many months exist on Mars? – 12 Martian months
+    * How many Martian (and not Earth) days worth of data exist in the scraped dataset? – 1,867 Martian days (sols)
     * What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
         * Find the average minimum daily temperature for all of the months.
         * Plot the results as a bar chart.
+        
+    ![Average Temperature by Month](output/avg_temp_by_month.png)
+    ![Average Temperature by Month – Descending](output/desc_avg_temp.png)
+    
+    It appears that the coldest months in descending order are: 3, 4, 2, 5, 1, 6, 12, 7, 11, 10, 9.
+    
     * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
         * Find the average daily atmospheric pressure of all the months.
         * Plot the results as a bar chart.
@@ -57,26 +63,4 @@ This challenge is intended to strengthen skill in data collection, organization 
         * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         * Visually estimate the result by plotting the daily minimum temperature.
 
-6. Export the DataFrame to a CSV file.
-
-Requirements
-Part 1: Scrape Titles and Preview Text from Mars News (40 points)
-Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup). (10 points)
-
-The titles and preview text of the news articles were scraped and extracted. (20 points)
-
-The scraped information was stored in the specified Python data structure—specifically, a list of dictionaries. (10 points)
-
-Part 2: Scrape and Analyze Mars Weather Data (60 points)
-The HTML table was extracted into a Pandas DataFrame. Either Pandas or Splinter and Beautiful Soup were used to scrape the data. The columns have the correct headings and data types. (15 points)
-
-The data was analyzed to answer the following questions: (10 points)
-
-How many months exist on Mars? (5 points)
-How many Martian days' worth of data are there? (5 points)
-The data was analyzed to answer the following questions, and a data visualization was created to support each answer: (30 points)
-
-Which month, on average, has the lowest temperature? The highest? (10 points)
-Which month, on average, has the lowest atmospheric pressure? The highest? (10 points)
-How many terrestrial days exist in a Martian year? A visual estimate within 25% was made. (10 points)
-The DataFrame was exported into a CSV file. (5 points)
+6. Export the DataFrame to a CSV file titled `.csv`.
