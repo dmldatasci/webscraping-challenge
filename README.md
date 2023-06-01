@@ -1,11 +1,8 @@
-# webscraping-challenge
-Module 11 submission for UC Berkeley data science bootcamp.
-
+# webscraping-mars-news-weather
+A web-scraping and data analysis project designed to practice isolating HTML elements on Mars news and weather pages, identifying their `id` and `class` attributes, and using this knowledge to extract information via both automated browsing (`Splinter`) and HTML parsing (`BeautifulSoup`).
 
 ## Background
-This is a web-scraping and data analysis project designed to practice isolating HTML elements on a page, identifying their `id` and `class` attributes, and using this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. We will scrape various types of information, including HTML tables and recurring elements—news articles in this instance—on a webpage.
-
-The goal here is to strengthen skill in data collection, organization and storage, as well as analysis and visualization. Deliverables are as follows:
+The goal here is to strengthen skill in data collection, organization and storage, as well as analysis and visualization. We will scrape various types of information, including HTML tables and recurring elements—news articles in this instance—on a webpage. Deliverables are as follows:
 
 - *__Deliverable 1:__ Scrape titles and preview text from Mars news articles.*
 - *__Deliverable 2:__ Scrape and analyze Mars weather data, which exists in a table.*
